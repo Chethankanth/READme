@@ -10,3 +10,31 @@ src/
 ├── App.js
 ├── App.css
 ├── index.js
+/////////////////////////////
+
+LMS_Project/
+│
+├── client/                 # Frontend (React)
+│   ├── public/             # Public assets (e.g., index.html)
+│   ├── src/                # React app source files
+│   │   ├── components/     # React components (e.g., BookList, UserForm)
+│   │   ├── App.js          # Main component that renders the app
+│   │   ├── index.js        # Entry point for React app
+│   │   └── styles.css      # Styling for the React app
+│   └── package.json        # React project dependencies
+│
+├── server/                 # Backend (Node.js / Express)
+│   ├── models/             # MongoDB models (for books, users, etc.)
+│   │   ├── Book.js         # Book model
+│   │   └── User.js         # User model
+│   ├── routes/             # Express routes (API endpoints)
+│   │   ├── bookRoutes.js   # API for managing books
+│   │   └── userRoutes.js   # API for managing users
+│   ├── server.js           # Main entry point for the backend
+│   └── .env                # Environment variables (e.g., MongoDB URI, API keys)
+│
+├── README.md               # This file
+├── requirements.txt        # List of Node.js dependencies
+├── package.json            # NPM dependencies for backend
+└── docs/
+    └── user_guide.md       # User guide and instructions
